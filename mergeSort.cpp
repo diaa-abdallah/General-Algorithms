@@ -2,7 +2,7 @@
 #include <vector>
 
 using namespace std;
- vector<int> merge(vector<int> left,vector<int> right)
+ vector<int> merge(vector<int> &left,vector<int>& right)
  {
 	 int i=0,j=0;
 	 vector<int> merged;
